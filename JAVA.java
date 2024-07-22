@@ -1,0 +1,1 @@
+system.out.print("eyyyy ka mona");
