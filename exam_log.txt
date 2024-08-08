@@ -1,0 +1,94 @@
+    1* 
+    2  apt-get full-upgrade -y
+    3  apt-get install php
+    4  apt-get install apache2
+    5  mysql-server -y
+    6  apt-get install mysql-server -y
+    7  apt-get install php libapache2-mod-php php-mysql -y
+    8  apt-get install man
+    9  apt-get install netools -y
+   10  apt-get install coreutils -y
+   11  server ss start
+   12  server ssh start
+   13  clr
+   14  exit
+   15* 
+   16* 
+   17* 
+   18  service apache2 status
+   19  service apache2 start
+   20  service apache2 status
+   21* 
+   22  exit
+   23  service apache2 start
+   24  service apache2 status
+   25  service mysql start
+   26* 
+   27  service mysql start
+   28  ok
+   29  service ssh start
+   30  service ssh status
+   31  apt update
+   32  mkdir
+   33  mv src source
+   34  service apache2 start
+   35  cd ~/yourrepo
+   36  ls >> notes.txt
+   37  cat notes.txt
+   38  echo "Hello, Linux!" >> notes.txt
+   39  echo "This is a practical exam." >> notes.txt
+   40  head -n 1 notes.txt
+   41  tail -n 1 notes.txt
+   42  mkdir subdir
+   43  mv notes.txt subdir/
+   44  mv subdir practice_subdir
+   45  cp practice_subdir/notes.txt .
+   46  date
+   47  uptime
+   48  du -sh ~
+   49  ssh -V
+   50  php -v
+   51  mysql --version
+   52  apache2 -v
+   53  python --version
+   54  java -version
+   55  date
+   56  uptime
+   57  du -sh
+   58  ssh -v
+   59  php -v
+   60  mysql --version
+   61  apache2 -v
+   62  python --version
+   63  java -version
+   64  git checkout -b finalexam
+   65  git add exam_log.txt
+   66  git commit -m "Submit practical exam log"
+   67  git push original finalexam
+   68  cd ~/yourrepo
+   69  git checkout b finalexam
+   70  gh repo clone <212710119_Regalario>
+   71  gh repo clone 212710119_Regalario
+   72  gh repo clone <212710119_Regalario>
+   73  gh repo clone <212710119_Regalario-github.com/basty748/212710119_Regalario>
+   74* 
+   75  touch exam_log.txt
+   76  cd ~/212710119_Regalario
+   77  gh repo clone <212710119_Regalario-github.com/basty748/212710119_Regalario>
+   78  git clone https://github.com/basty748
+   79  git clone https://github.com/basty748/212710119_Regalario.git
+   80  gh repo clone https://github.com/basty748/212710119_regalario
+   81  apt install git
+   82  gh repo clone https://github.com/basty748/212710119_regalario
+   83  apt gh install
+   84* 
+   85  gh repo clone https://github.com/basty748/212710119_Regalario.git
+   86  apt install gh -y
+   87  gh repo clone https://github.com/basty748/212710119_Regalario.git
+   88  gh auth login 
+   89  gh repo clone https://github.com/basty748/212710119_Regalario.git
+   90  ls
+   91  cd 212710119_Regalario
+   92  ls
+   93  git checkout -b finalexam
+   94  history > exam_log.txt
